@@ -122,7 +122,7 @@ class App extends Component {
                                     <Redirect push to={`/profile/${this.state.username}`} />
                                 ) : (
                                         <>
-                                            <h1 id="heading">Github Profile Viewer</h1>
+                                            <h1 id="heading">Search Github User</h1>
                                             <Search onSubmitHandler={this.onSubmitHandler} onChangeHandler={this.onChangeHandler} name={this.state.name} />
                                             {/* Showing Error if the user doesnt exist  */}
                                             {this.state.userDoesntExist && <Error />}
