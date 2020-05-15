@@ -1,0 +1,201 @@
+.dummy-tabs {
+    margin: 0 50px;
+  }
+  
+  .dummy-tabs ul {
+    height: 50px;
+    border-bottom: 1px silver solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 0;
+  }
+  
+  .dummy-tabs ul li {
+    display: inline-block;
+  }
+  
+  .dummy-tabs ul li a {
+    font-weight: 300;
+    padding: 16px 8px;
+    margin-right: 16px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dummy-tabs ul li a code {
+    background: rgba(27, 31, 35, 0.08);
+    opacity: 0.7;
+    border-radius: 50%;
+  }
+  
+  .dummy-tabs ul li:nth-of-type(2) {
+    border-bottom: 2px red solid;
+  }
+  
+  .dummy-tabs ul li:nth-of-type(2) a {
+    font-weight: 600;
+  }
+  
+  #filter-repo {
+    margin: 0 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  
+  #filter-repo .search-field {
+    width: 40%;
+    margin-left: 0 !important;
+  }
+  
+  #filter-repo .search-field input {
+    width: 100%;
+  }
+  
+  #filter-repo select,
+  #filter-repo label {
+    margin-right: 10px;
+  }
+  
+  #filter-repo .select {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  #filter-repo .select .select-type,
+  #filter-repo .select .language-type {
+    font-size: 17px;
+    height: 35px;
+    display: inline-block;
+    background: #eff3f6;
+    border: 1px silver solid;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  
+  #filter-repo .select .select-type select,
+  #filter-repo .select .language-type select {
+    background: #eff3f6;
+    font-weight: bold;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  #filter-repo .select .select-type select option,
+  #filter-repo .select .language-type select option {
+    font-size: 17px;
+  }
+  
+  #filter-repo .select .language-type {
+    margin-left: 15px;
+  }
+  
+  #filter-repo button {
+    background: #21d94b;
+    color: white;
+    outline: none;
+    border: 0;
+  }
+  
+  #filter-repo button:hover {
+    background: #28a745;
+  }
+  
+  @media (max-width: 1320px) {
+    #filter-repo {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    #filter-repo .search-field {
+      width: 100%;
+    }
+    #filter-repo .select {
+      margin-top: 15px;
+      width: 100%;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+    }
+    #filter-repo .select .language-type {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 850px) {
+    #filter-repo .select .language-type,
+    #filter-repo .select .select-type {
+      font-size: 14px;
+    }
+    #filter-repo .select .language-type select,
+    #filter-repo .select .select-type select {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 533px) {
+    .dummy-tabs ul {
+      margin-right: 0;
+    }
+    .dummy-tabs ul li a {
+      margin-right: 5px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #filter-repo .search-field {
+      margin: 0;
+      margin-right: 10px;
+    }
+    #filter-repo .select {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+    }
+    #filter-repo .select .language-type,
+    #filter-repo .select .select-type {
+      width: 45%;
+      margin: 0;
+    }
+    #filter-repo .select .language-type select,
+    #filter-repo .select .select-type select {
+      font-size: 10px;
+    }
+    #filter-repo .select .language-type select option,
+    #filter-repo .select .select-type select option {
+      font-size: 10px;
+    }
+    #filter-repo .select .select-type select {
+      width: 75%;
+    }
+    #filter-repo .select button {
+      display: inline-block;
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 406px) {
+    .dummy-tabs ul {
+      margin-right: 0;
+    }
+    .dummy-tabs ul li a {
+      margin-right: 0 !important;
+      font-size: 11px;
+    }
+  }
+  /*# sourceMappingURL=Filter.css.map */

@@ -1,0 +1,32 @@
+header {
+    background-color: #24292e;
+    margin-bottom: 50px;
+  }
+  
+  header .header {
+    width: 60%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px;
+  }
+  
+  header .header .logo svg {
+    height: 40px;
+    width: 40px;
+    fill: white;
+  }
+  
+  @media (max-width: 620px) {
+    header .header {
+      width: 90%;
+    }
+    header .header div #profile-search input {
+      width: 150px;
+    }
+  }
+  /*# sourceMappingURL=Header.css.map */
