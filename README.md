@@ -2,13 +2,13 @@
 
 # Functionality covers this project
 
-1. You need to get the left side panel data - profile data from this api https://api.github.com/users/supreetsingh247. 
+1. You need to get the left side panel data - profile data from this api https://api.github.com/users/<username>. 
 
 2. The edit bio button will not be functional for the assignment.
 
 3.  For the Right part, the tabs - Overview, Repositories, Stars - Will all be dummy data and clicking on them should not trigger any actions. 
 
-4. The List of repositories should come from this api - https://api.github.com/users/supreetsingh247/repos. 
+4. The List of repositories should come from this api - https://api.github.com/users/<username>/repos. 
 
 5. The search function, filter by type and language should be working. The 'New' button will be dummy. 
 
