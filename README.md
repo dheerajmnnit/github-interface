@@ -18,4 +18,4 @@
 
 8. Responsiveness - It should move the left section to top in mobile. The right section to the bottom. The widths and other data should be adjusted accordingly.
 
-Working demo deployed on heroku: https://objective-dubinsky-c2d347.netlify.app/
+Working demo deployed on netlify: https://objective-dubinsky-c2d347.netlify.app/
